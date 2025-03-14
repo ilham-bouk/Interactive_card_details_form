@@ -47,7 +47,7 @@ Users should be able to:
 - JavaScript 
 - Flexbox
 - Desktop-first workflow
-- 
+- Regular expression
 
 ### What I learned
 
@@ -86,8 +86,8 @@ function formatNumber(cardNumber) {
 
 ### Useful resources
 
-[Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
-[RegExr](https://regexr.com/)
+ - [Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) Thise article help me to review the essentials of JavaScript regular expressions, covering syntax, patterns, and practical examples. 
+ - [RegExr](https://regexr.com/) An online tool to learn, build, & test Regular Expressions.
 
 ## Author
 
