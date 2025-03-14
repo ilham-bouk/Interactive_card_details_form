@@ -31,12 +31,12 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+![screenshot of the solution](./design/Screenshot.png)
 
 ### Links
 
 - Solution URL: [Solution]()
-- Live Site URL: [Live site]()
+- Live Site URL: [Live site](https://ilham-bouk.github.io/Interactive_card_details_form/)
 
 ## My process
 
@@ -44,12 +44,41 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
+- JavaScript 
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
+- Desktop-first workflow
 - 
 
 ### What I learned
+
+
+```html
+<figure class="cards">
+  <figcaption class="bg-front">
+         ... 
+  </figcaption>
+  <figcaption class="bg-back">
+         ... 
+  </figcaption>
+</figure> 
+```
+
+``` css
+.detail .form label input:hover,
+.detail .form label input:focus {
+  background-image: linear-gradient(white, white), linear-gradient(to right, var(--Linear-gradient));
+  border: 2px solid transparent;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+} 
+```
+
+```js
+function formatNumber(cardNumber) {
+  let str = String(cardNumber);
+  return str.replace(/(\d{4})/g, '$1 ').trim();
+}
+```
 
 
 ### Continued development
@@ -57,7 +86,8 @@ Users should be able to:
 
 ### Useful resources
 
-
+[Regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+[RegExr](https://regexr.com/)
 
 ## Author
 
