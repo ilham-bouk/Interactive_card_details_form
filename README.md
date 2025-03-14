@@ -49,8 +49,8 @@ Users should be able to:
 - Desktop-first workflow
 - Regular expression
 
-### What I learned
-
+### What I learned 
+This challenge provided valuable practice for my coding skills, particularly in styling images, validation and regular expression and some semantic elements. 
 
 ```html
 <figure class="cards">
