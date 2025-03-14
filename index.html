@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | Interactive card details form</title>
+    
+  </head>
+  <body>
+    <main>
+      <figure class="cards">
+        <!-- <picture class="card__picture"></picture> -->
+        <figcaption class="bg-front">
+          <img src="./images/card-logo.svg" alt="card-logo">
+          <h1 class="cardNum">0000 0000 0000 0000</h1>
+          <div class="info">
+            <span class="name">Jane Appleseed</span>
+            <span class="date">
+              <span class="month">00</span>/<span class="year">00</span>
+            </span>
+          </div>
+        </figcaption>
+
+        <figcaption class="bg-back">
+          <span>000</span>
+        </figcaption>
+      </figure>
+
+      <section class="detail">
+        <article class="form">
+          <label class="name box">
+            Cardholder Name
+            <input type="text" id="name-inp" placeholder="e.g. Jane Appleseed">
+            <div class="errorMsg">Can't be blanck</div>
+          </label>
+
+          <label class="numb box">
+            Card Number
+            <input type="number" minlength="16" maxlength="16" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="num-inp" placeholder="e.g. 1234 5678 9123 0000">
+            <div class="errorMsg">Invalid card number</div>
+          </label>
+
+          <div class="dateCvc box">
+            <label class="date">
+              Exp. Date (MM/YY)
+              <div class="inputs">
+                <input type="number" minlength="2" maxlength="2" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="month-inp" placeholder="MM">
+                <input type="number" minlength="2" maxlength="2" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="year-inp" placeholder="YY">
+              </div>
+              <div class="errorMsg">Invalid date</div>
+            </label>
+            <label class="cvc">
+              CVC
+              <input type="number" minlength="3" maxlength="3" oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" id="cvc-inp" placeholder="e.g. 123">
+              <div class="errorMsg">Invalid CVC number</div>
+            </label>
+          </div>
+          <button>Confirm</button>
+        </article>
+
+        <article class="complet">
+          <img src="./images/icon-complete.svg" alt="icon-complete">
+          <h2>Thank you!</h2>
+          <p>We've added your card details</p>
+          <button>Continue</button>
+        </article>
+      </section>
+
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 
+      Coded by <a href="#">Ilham Bouktir</a>.
+    </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
