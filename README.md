@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-interactive-card-details-form-solution-A3c9fyybKR)
 - Live Site URL: [Live site](https://ilham-bouk.github.io/Interactive_card_details_form/)
 
 ## My process
@@ -50,6 +50,7 @@ Users should be able to:
 - Regular expression
 
 ### What I learned 
+
 This challenge provided valuable practice for my coding skills, particularly in styling images, validation and regular expression and some semantic elements. 
 
 ```html
@@ -96,6 +97,6 @@ function formatNumber(cardNumber) {
 
 ## Acknowledgments
 
-A big thank you to anyone providing feedback on [my solution](). It definitely helps to find new ways to code and find easier solutions!
+A big thank you to anyone providing feedback on [my solution](https://www.frontendmentor.io/solutions/responsive-interactive-card-details-form-solution-A3c9fyybKR). It definitely helps to find new ways to code and find easier solutions!
 
 **Happy coding!** ☺️🚀
